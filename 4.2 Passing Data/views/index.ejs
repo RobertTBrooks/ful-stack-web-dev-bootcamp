@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Letters</title>
+</head>
+
+<body>
+  <!-- Write your code here -->
+   <%
+    let response = 'Enter your name in, and ill count the total letters!';
+    let count = 0;
+
+    if(locals.name) {
+      count = name.length;
+      response = count > 0 ? `There is ${count} letters in your first and last name!` : `Hmm seems to be empty? ${baseResponse}`;
+    }
+   %>
+    
+  <h1><%= response %></h1>
+  <form action="/submit" method="POST">
+    <input type="text" name="fName" placeholder="First name">
+    <input type="text" name="lName" placeholder="Last name">
+    <input type="submit" value="OK">
+  </form>
+</body>
+
+</html>

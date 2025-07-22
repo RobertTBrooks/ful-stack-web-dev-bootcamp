@@ -1,0 +1,15 @@
+{
+  "name": "3.2-http-requests",
+  "version": "1.0.0",
+  "description": "http request study with express",
+  "license": "MIT",
+  "author": "Robert Brooks",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "3.3-postman",
+  "version": "1.0.0",
+  "description": "postman request study",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Robert Brooks",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

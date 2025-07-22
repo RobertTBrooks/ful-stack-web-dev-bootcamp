@@ -1,0 +1,15 @@
+{
+  "name": "npm-study",
+  "version": "1.0.0",
+  "description": "study npm",
+  "license": "MIT",
+  "author": "Robert Brooks",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "superheroes": "^4.0.0"
+  }
+}
